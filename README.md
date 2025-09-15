@@ -182,12 +182,6 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
-
-- Project Lead: [Your Name](https://github.com/yourusername)
-- Frontend Developer: [Name](https://github.com/username)
-- Backend Developer: [Name](https://github.com/username)
-
 ## 🙏 Acknowledgments
 
 - Special thanks to all my IIT Ghuwati Faculty and Masai Team
@@ -195,4 +189,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with ❤️ for organizations worldwide
 
 ---
+
 *For support, please open an issue in the GitHub repository.*
