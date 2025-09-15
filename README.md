@@ -9,6 +9,36 @@
 
 MerchandiseHub is a comprehensive platform designed to streamline merchandise ordering, review, and distribution for organizations. Perfect for universities, corporate events, and large-scale merchandise management.
 
+## 🏗️ Current Implementation Status
+
+### ✅ Completed Features
+- Basic project structure and architecture setup
+- Frontend routing and navigation
+- Responsive UI components with animations
+- Product catalog page with sample products
+- Database models (User, Product, Order)
+- Basic authentication middleware
+- Welcome screen with animated background
+- Modern and intuitive UI design
+
+### 🚧 In Progress
+- User authentication implementation
+- Backend API routes development
+- Frontend-backend integration
+- Shopping cart functionality
+- User profile page
+
+### 📋 Pending Features
+- Razorpay payment integration
+- Email notifications (SMTP)
+- SMS alerts (Twilio)
+- Order management system
+- Admin dashboard
+- Product review system
+- Real-time inventory tracking
+- Bulk order processing
+- Distribution tracking system
+
 ## ✨ Key Features
 
 ### 🛍️ Product Management
@@ -152,12 +182,17 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👥 Team
+
+- Project Lead: [Your Name](https://github.com/yourusername)
+- Frontend Developer: [Name](https://github.com/username)
+- Backend Developer: [Name](https://github.com/username)
+
 ## 🙏 Acknowledgments
 
-- Special thanks to all my IIT Ghuwati Faculty and Masai
+- Special thanks to all my IIT Ghuwati Faculty and Masai Team
 - Inspired by modern merchandise management needs
 - Built with ❤️ for organizations worldwide
 
 ---
-
 *For support, please open an issue in the GitHub repository.*
