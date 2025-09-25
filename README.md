@@ -114,10 +114,11 @@ Pull requests and suggestions are welcome! Please fork the repo and submit a PR.
 
 ## 👤 Credits
 
-- Project Lead: [Your Name]
-- Matrix theme, UI/UX, and privacy features: [Your Name]
+- Project Lead: Prabhav Pandey
+- Matrix theme, UI/UX, and privacy features: Prabhav Pandey
 - Inspired by the Matrix, privacy, and decentralized tech movements
 
 ---
+
 
 *For support, open an issue on GitHub.*
