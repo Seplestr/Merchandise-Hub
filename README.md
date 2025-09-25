@@ -8,7 +8,7 @@ MatrixMarket is a next-generation, Matrix-themed platform for buying and selling
 ## 🌟 Features
 
 - 🟢 **Matrix/Hacker/Crypto Theme**: Neon green, digital rain, and immersive Matrix-inspired UI across all pages.
-- 🛒 **Infinite Scrolling Product Page**: Browse products with seamless infinite scroll and currency toggle (INR, BTC, ETH).
+- 🛒 **Multi-Currency Product Page**: Browse products with seamless currency toggle (INR, BTC, ETH).
 - � **Buyer & Seller Roles**: Register/login as a buyer or seller. Each role gets a tailored dashboard and experience.
 - �️ **Seller Dashboard**:
   - Welcome with your store name
@@ -122,3 +122,4 @@ Pull requests and suggestions are welcome! Please fork the repo and submit a PR.
 
 
 *For support, open an issue on GitHub.*
+
