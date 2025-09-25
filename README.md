@@ -1,193 +1,123 @@
-# 🎽 MerchandiseHub - Smart Merchandise Management Platform
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-16.x-green)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4.x-green)](https://www.mongodb.com/)
+# 🟩 MatrixMarket - Decentralized, Privacy-Focused, Crypto-Ready Merchandise Platform
 
-## 🚀 Overview
+MatrixMarket is a next-generation, Matrix-themed platform for buying and selling merchandise with a focus on privacy, decentralization, and crypto integration. Built for campus communities, privacy enthusiasts, and anyone who wants a futuristic, secure, and visually stunning marketplace experience.
 
-MerchandiseHub is a comprehensive platform designed to streamline merchandise ordering, review, and distribution for organizations. Perfect for universities, corporate events, and large-scale merchandise management.
+---
 
-## 🏗️ Current Implementation Status
+## 🌟 Features
 
-### ✅ Completed Features
-- Basic project structure and architecture setup
-- Frontend routing and navigation
-- Responsive UI components with animations
-- Product catalog page with sample products
-- Database models (User, Product, Order)
-- Basic authentication middleware
-- Welcome screen with animated background
-- Modern and intuitive UI design
+- 🟢 **Matrix/Hacker/Crypto Theme**: Neon green, digital rain, and immersive Matrix-inspired UI across all pages.
+- 🛒 **Infinite Scrolling Product Page**: Browse products with seamless infinite scroll and currency toggle (INR, BTC, ETH).
+- � **Buyer & Seller Roles**: Register/login as a buyer or seller. Each role gets a tailored dashboard and experience.
+- �️ **Seller Dashboard**:
+  - Welcome with your store name
+  - Add products with image, description, price (in INR), and PGP public key
+  - Change or remove products/images
+  - Track product clicks/interest
+- 👥 **Buyer Dashboard**:
+  - Profile with privacy, wallet, and order history
+  - Matrix-themed avatar and address management
+- � **Privacy & Decentralization**:
+  - No unnecessary data collection
+  - PGP public key upload for sellers
+  - Local storage for demo privacy
+- 💸 **Crypto-Ready Cart**:
+  - Cart supports INR, BTC, and ETH
+  - Currency selection syncs between product and cart pages
+  - Checkout flow with wallet connect (mock)
+- 🌧️ **Global Matrix Rain Effect**: Digital rain on every page for a cohesive cyberpunk feel
+- 📝 **About Page**: Explains privacy, decentralization, and Matrix philosophy
 
-### 🚧 In Progress
-- User authentication implementation
-- Backend API routes development
-- Frontend-backend integration
-- Shopping cart functionality
-- User profile page
+---
 
-### 📋 Pending Features
-- Razorpay payment integration
-- Email notifications (SMTP)
-- SMS alerts (Twilio)
-- Order management system
-- Admin dashboard
-- Product review system
-- Real-time inventory tracking
-- Bulk order processing
-- Distribution tracking system
+## 🛠️ Tech Stack
 
-## ✨ Key Features
+- **Frontend**: React.js, Context API, Axios, custom CSS (Matrix theme)
+- **Backend**: Node.js, Express, MongoDB (API, models, routes)
+- **Crypto**: Live BTC/ETH rates for price conversion
 
-### 🛍️ Product Management
-- Dynamic product catalog with advanced filtering
-- Bulk and individual order capabilities
-- Real-time inventory tracking
-- Custom product customization options
+---
 
-### 💳 Payment & Security
-- Secure payment integration with Razorpay
-- Role-based access control
-- JWT authentication
-- Privacy-focused design
-
-### 📦 Order Management
-- Individual and group order processing
-- Distribution tracking system
-- Order status notifications
-- Bulk order optimization
-
-### 🔔 Smart Notifications
-- Email notifications via SMTP
-- SMS alerts through Twilio
-- Order status updates
-- Review system notifications
-
-### 👥 User Management
-- Role-based authentication
-- User profiles and preferences
-- Order history tracking
-- Group management features
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **React.js** - Modern UI components and state management
-- **Material-UI** - Responsive design components
-- **Redux** - State management
-- **Axios** - API integration
-
-### Backend
-- **Node.js** - Server runtime
-- **Express** - Web framework
-- **MongoDB** - Database
-- **JWT** - Authentication
-- **Razorpay** - Payment processing
-- **Twilio** - SMS notifications
-- **Nodemailer** - Email notifications
-
-## 📁 Project Structure
+## � Project Structure
 
 ```
-├── frontend/          # React application
+├── frontend/
 │   ├── src/
-│   │   ├── pages/    # Page components
-│   │   ├── components/# Reusable components
-│   │   └── App.js    # Main application
+│   │   ├── pages/        # Main pages (Products, Profile, Login, Register, SellerDashboard, About)
+│   │   ├── components/   # Reusable UI components (ProductList, Cart, etc.)
+│   │   └── App.js        # Main app entry
 │   └── package.json
 │
-├── backend/           # Express API
+├── backend/
 │   ├── src/
 │   │   ├── controllers/
-│   │   ├── models/   # Database models
-│   │   ├── routes/   # API routes
-│   │   └── server.js # Server configuration
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── server.js
 │   └── package.json
 │
-└── .github/          # Project documentation
+└── .github/              # Docs & instructions
 ```
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js (v16+)
 - MongoDB
-- Razorpay account
-- Twilio account (for SMS)
-- SMTP server (for emails)
 
-### Installation & Setup
+### Setup
 
-1. **Clone the Repository**
+1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/merchandisehub.git
-   cd merchandisehub
+   git clone https://github.com/yourusername/matrixmarket.git
+   cd matrixmarket
    ```
-
-2. **Backend Setup**
+2. **Backend**
    ```bash
    cd backend
    npm install
-   cp .env.example .env
-   # Configure your environment variables
    npm run dev
    ```
-
-3. **Frontend Setup**
+3. **Frontend**
    ```bash
    cd frontend
    npm install
-   cp .env.example .env
-   # Configure your environment variables
    npm start
    ```
 
-See detailed setup instructions in `frontend/README.md` and `backend/README.md`.
+---
 
-## 📝 Environment Variables
+## � Environment Variables
 
 ### Backend
 ```env
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-RAZORPAY_KEY_ID=your_razorpay_key
-RAZORPAY_SECRET=your_razorpay_secret
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
-SMTP_HOST=your_smtp_host
-SMTP_USER=your_smtp_user
-SMTP_PASS=your_smtp_password
 ```
 
 ### Frontend
 ```env
 REACT_APP_API_URL=http://localhost:5000
-REACT_APP_RAZORPAY_KEY_ID=your_razorpay_key
 ```
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Special thanks to all my IIT Ghuwati Faculty and Masai Team
-- Inspired by modern merchandise management needs
-- Built with ❤️ for organizations worldwide
 
 ---
 
-*For support, please open an issue in the GitHub repository.*
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome! Please fork the repo and submit a PR.
+
+---
+
+## 👤 Credits
+
+- Project Lead: [Your Name]
+- Matrix theme, UI/UX, and privacy features: [Your Name]
+- Inspired by the Matrix, privacy, and decentralized tech movements
+
+---
+
+*For support, open an issue on GitHub.*
